@@ -219,6 +219,16 @@ ul.features li {
 	position: relative;
 }
 
+.information-with-photo,
+.about-us {
+	width: 49%;
+	float: left;
+}
+
+.about-us {
+	margin-left: 2%;
+}
+
 .features-header {
 	font-size: 16px;
 	font-family: Georgia;
@@ -264,16 +274,13 @@ ul.features li {
 	-webkit-border-radius: 9px;
 	border-radius: 9px;
 	color: #fff;
-	font-family: Tahoma;
+	font-family: Georgia;
 	font-size: 13px;
-	height: 20px;
-	width: 105px;
-	padding: 0 9px;
 	box-sizing: border-box;
 	border: none;
 	text-transform: uppercase;
 	text-decoration: none;
-	padding: 7px ;
+	padding: 9px;
 	font-weight: lighter;
 	letter-spacing: 0.5px;
 }
@@ -315,77 +322,37 @@ ul.features li {
 .information-content {
 	font-family: Georgia;
 	font-size: 13px;
-	color: #716c6c;
+	color: #999;
 	letter-spacing: 0.5px;
 	font-weight: 100;
 	display: block;
-	width: 510px;
     margin-top: 5px;
+	line-height: 150%;
 }
 
 .h2-2 {
-	font-family: Georgia;
-	font-size: 16px;
-	text-transform: uppercase;
-	font-weight: lighter;
-	letter-spacing: 0.35px;
-	color: #333;
-	margin-top: -500px;
-	margin-left: 500px;
+	margin-bottom: 35px;
+}
+
+.paragraph-2 {
+	clear: left;
 }
 
 .photo-of-the-paragraph {
 	border: 1px solid gainsboro;
 	padding: 5px;
 	position: relative;
-	margin-left: -260px;
-	margin-top: 20px;
-	margin-right: 0;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	float: left;
 }
 
 .a-little-about-us {
 	list-style-type: none;
 }
 
-.paragraph-2 {
-	font-family: Georgia;
-	font-size: 13px;
-	color: #716c6c;
-	width: 200px;
-	display: block;
-	margin-left: 760px;
-	position: relative;
-}
-
-.paragraph-3 {
-	display: block;
-	width: 470px;
-	font-family: Georgia;
-	font-size: 13px;
-	color: #716c6c;
-	position: relative;
-	margin-left: 500px;
-	margin-top: -120px;
-}
-
-.read-more1 {
-	background-color: #d54346;
-	-webkit-border-radius: 9px;
-	border-radius: 9px;
-	color: #fff;
-	font-family: Tahoma;
-	font-size: 13px;
-	height: 20px;
-	width: 105px;
-	padding: 0 9px;
-	box-sizing: border-box;
-	border: none;
-	text-transform: uppercase;
-	text-decoration: none;
-	padding: 7px ;
-	font-weight: lighter;
-	letter-spacing: 0.5px;
-	margin-left: 800px;
+.read-more:hover {
+	background-color: #981f22;
 }
 
 .horizontal-line-1 {
@@ -396,6 +363,11 @@ ul.features li {
 	position: relative;
 	margin-top: 200px;
 	margin-bottom: 50px;
+	clear: both;
+}
+
+.align-right {
+	float: right;
 }
 
 .template {
@@ -423,7 +395,18 @@ ul.features li {
 	font-weight: lighter;
 	letter-spacing: 0.35px;
 	color: #333;
-	margin-left: 500px;
 	position: relative;
 	margin-top: 30px;
+}
+
+#footer {
+	clear: both;
+}
+
+.latest-testimonials {
+	clear: right;
+}
+
+.latest-testimonials__list {
+	padding-left: 0;
 }
