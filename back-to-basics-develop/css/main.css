@@ -1,0 +1,455 @@
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 1px 20px;
+	box-sizing: border-box;
+}
+
+.logo {
+	color: #4a4a4a;
+	font-family: Georgia;
+	font-size: 32px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 20px;
+	display: block;
+	-webkit-transition: color 0.3s ease-in;
+	-moz-transition: color 0.3s ease-in;
+	-ms-transition: color 0.3s ease-in;
+	-o-transition: color 0.3s ease-in;
+	transition: color 0.3s ease-in;
+	float: left;
+}
+
+.logo:hover {
+	color: black;
+}
+
+.smaller-text {
+	font-size: 0.8125em;
+}
+
+.logo-small {
+	color: #999;
+	font-size: 0.375em;
+	display: block;
+	text-transform: none;
+	margin-top: 5px;
+}
+
+.search-wrapper {
+	float: right;
+}
+
+.row {
+	clear: both;
+}
+
+.search-wrapper {
+	margin-top: 35px;
+}
+
+.search-field {
+	background-color: #353535;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+	color: #999;
+	font-family: Georgia;
+	font-size: 12px;
+	height: 32px;
+	width: 217px;
+	padding: 0 9px;
+	box-sizing: border-box;
+	border: none;
+}
+
+.search-field:focus {
+	outline: none;
+	color: #fff;
+}
+
+.search-submit {
+	background-color: #d54346;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 12px;
+	font-family: Georgia;
+	text-align: center;
+	width: 68px;
+	height: 32px;
+	margin-left: 3px;
+	border: none;
+	cursor: pointer;
+	-webkit-transition: background-color 0.2s ease-in;
+	-moz-transition: background-color 0.2s ease-in;
+	-ms-transition: background-color 0.2s ease-in;
+	-o-transition: background-color 0.2s ease-in;
+	transition: background-color 0.2s ease-in;
+}
+
+.search-submit:hover {
+	background-color: #a92e30;
+}
+
+.social-icons {
+	float: right;
+	margin-top: 15px;
+}
+
+.social-icons ul {
+	padding: 0;
+	margin: 0;
+}
+
+.social-icons-item {
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 9px;
+	vertical-align: top;
+}
+
+.social-icons-item a {
+	color: #fff;
+	background-color: #353535;
+	width: 32px;
+	height: 32px;
+	display: block;
+	text-align: center;
+	line-height: 32px;
+	-webkit-border-radius: 16px;
+	border-radius: 16px;
+	-webkit-transition: background-color 0.2s ease-in;
+	-moz-transition: background-color 0.2s ease-in;
+	-ms-transition: background-color 0.2s ease-in;
+	-o-transition: background-color 0.2s ease-in;
+	transition: background-color 0.2s ease-in;
+}
+
+.social-icons-item a:hover {
+	background-color: #a92e30;
+}
+
+.icon-subscribe {
+	background-image: url(../img/icon-subscribe.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.main-menu {
+	float: left;
+}
+
+.main-menu-inside {
+	position: relative;
+	margin: 1px; 
+    padding: 1px;
+	left: -30px;
+	top: 30px;
+	font-size: 0.175em;
+}
+
+.main-menu-inside li {
+	display:inline-block; 
+	margin-left: 27px;  
+    padding: none;
+	text-align: left;
+}
+
+.main-menu-item {
+	font-size: 12px;
+	text-transform: uppercase;
+	
+}
+
+.slider {
+	width: 960px; 
+	height: 450px;	
+	margin: none; 
+	border: 1px solid black; 
+	padding: none;	
+	position: relative;
+	top: 100px;	
+    background-color: #353535;	
+}
+
+.main-menu-item a {
+	display: block;
+	color: #999;
+	text-decoration: none;
+	font-family: Georgia;
+	font-weight: lighter;
+} 
+
+.in-slider {
+	position:relative;
+	width: 495px;
+	height: 144px;
+	border:1px solid black;
+	left:50px;
+    top:25px;
+}
+
+.features {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 0; /* Значение полей */
+}
+
+ul.features li {
+    display: inline-block; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: none; /* Рамка вокруг текста */ 
+	vertical-align: top;
+}
+
+.horizontal-line {
+    border: 20px; 
+    background-color: gainsboro;
+    color: gainsboro;
+    height: 1px;
+	margin-top: 150px;
+   }
+
+.main-footer {
+	position: relative;	
+}
+
+.information-with-photo {
+	position: relative;
+}
+
+.information-with-photo,
+.about-us {
+	width: 49%;
+	float: left;
+}
+
+.about-us {
+	margin-left: 2%;
+}
+
+.features-header {
+	font-size: 16px;
+	font-family: Georgia;
+	color: #666;
+	text-align: left;
+}
+
+.features {
+	padding-top: 50px;
+	display: inline-block;	
+	position: relative;
+	top: 100px;
+}
+
+.features-content {
+	color: #999;
+	font-family: Georgia;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 170%;
+	padding: 0;
+	width: 300px;
+	text-align: left;
+	margin-right: 1240px;
+}
+
+.features-item {
+	width: 20.833%;
+}
+
+.same-of-our-services {
+	position: relative;
+	margin-top: 100px;
+}
+
+.main-menu-item a:hover {
+	color: #d54346;
+}
+
+.read-more {
+	background-color: #d54346;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+	color: #fff;
+	font-family: Georgia;
+	font-size: 13px;
+	box-sizing: border-box;
+	border: none;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 9px;
+	font-weight: lighter;
+	letter-spacing: 0.5px;
+}
+
+.same-of-our-services {
+	padding: 0;
+	width: 470px;
+	list-style-type: none;
+	margin: 10px;
+}
+
+.information-title {
+	font-family: Georgia;
+	font-size: 14px;
+	color: #d54346;
+	margin-left: 115px;
+	margin-top: 40px;
+}
+
+.h2-1 {
+	font-family: Georgia;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 0.35px;
+	color: #333;
+	margin-top: 50px;
+}
+
+.photo-title {
+	border: 1px solid gainsboro;
+	padding: 5px;
+	float: left;
+	margin-top: -30px;
+	position: relative;
+	margin-right: 23px;
+}
+
+.information-content {
+	font-family: Georgia;
+	font-size: 13px;
+	color: #999;
+	letter-spacing: 0.5px;
+	font-weight: 100;
+	display: block;
+    margin-top: 5px;
+	line-height: 150%;
+}
+
+.h2-2 {
+	margin-bottom: 35px;
+}
+
+.paragraph-2 {
+	clear: left;
+}
+
+.photo-of-the-paragraph {
+	border: 1px solid gainsboro;
+	padding: 5px;
+	position: relative;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.a-little-about-us {
+	list-style-type: none;
+}
+
+.read-more:hover {
+	background-color: #981f22;
+}
+
+.horizontal-line-1 {
+	border: 20px; 
+    background-color: gainsboro;
+    color: gainsboro;
+    height: 1px;
+	position: relative;
+	margin-top: 200px;
+	margin-bottom: 50px;
+	clear: both;
+}
+
+.align-right {
+	float: right;
+}
+
+.template {
+	font-size: 13px;
+	font-family: Georgia;
+	color: #716c6c;
+	display: inline-block;
+	float: right;
+	margin-top: -50px;
+}
+
+.copyright {
+	font-size: 13px;
+	font-family: Georgia;
+	color: #716c6c;
+	display: inline-block;
+	float: left;
+	margin-top: -30px;
+}
+
+.h2-3 {
+	font-family: Georgia;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 0.35px;
+	color: #333;
+	position: relative;
+	margin-top: 80px;
+}
+
+#footer {
+	clear: both;
+}
+
+.latest-testimonials {
+	clear: right;
+}
+
+.latest-testimonials__list {
+	padding-left: 0;
+}
+
+.latest-paragraph {
+	display: inline-block;
+	font-family: Georgia;
+	font-size: 16px;
+	color: #989898;
+	font-weight: bolder;
+	position: relative;
+	vertical-align: top;
+    margin-top: 0;
+}
+
+.little {
+	font-family: Georgia;
+	font-size: 16px;
+	color: #989898;
+	font-weight: lighter;
+}
+.project {
+	text-decoration: none;
+	font-size: 13px;
+	font-family: Georgia;
+	color: #d54346;
+	-webkit-transition: color 0.4s ease-in;
+    -moz-transition: color 0.4s ease-in;
+    -o-transition: color 0.4s ease-in;
+    transition: color 0.4s ease-in;
+	vertical-align: sub;
+}
+
+.project:hover {
+	color: #1cba54;
+}
+
+.finish {
+	font-family: Georgia;
+	font-size: 13px;
+	color: #999;
+	letter-spacing: 0.5px;
+	font-weight: 100;
+	line-height: 150%;
+	margin-top: 0;
+}
